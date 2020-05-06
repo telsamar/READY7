@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/dmon/CLionProjects/server/header.h
+iostream
+-
+boost/asio.hpp
+-
+string
+-
+mutex
+-
+ctime
+-
+boost/thread/thread.hpp
+-
+boost/date_time/posix_time/posix_time.hpp
+-
+boost/log/trivial.hpp
+-
+boost/log/utility/setup/file.hpp
+-
+boost/log/expressions.hpp
+-
+boost/log/support/date_time.hpp
+-
+boost/log/sources/severity_channel_logger.hpp
+-
+boost/log/sources/record_ostream.hpp
+-
+boost/log/utility/setup/console.hpp
+-
+boost/log/utility/setup/common_attributes.hpp
+-
+boost/log/sinks.hpp
+-
+
+/home/dmon/CLionProjects/server/source.cpp
+header.h
+/home/dmon/CLionProjects/server/header.h
+
