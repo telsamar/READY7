@@ -1,7 +1,6 @@
 cmake_minimum_required(VERSION 3.16)
 project(server)
 
-
 set(CMAKE_CXX_STANDARD 17)
 #hunter_add_package(Boost COMPONENTS log thread filesystem system)
 #find_package(Boost CONFIG REQUIRED log thread filesystem system)
